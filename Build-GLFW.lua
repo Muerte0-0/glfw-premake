@@ -67,17 +67,15 @@ defines {
 }
 
 files {
-	-- POSIX
-	"src/posix_module.c",
-	"src/posix_poll.c",
-	"src/posix_thread.c",
-	"src/posix_time.c",
-
-	-- X11
 	"src/x11_init.c",
 	"src/x11_monitor.c",
 	"src/x11_window.c",
 	"src/xkb_unicode.c",
+	"src/posix_time.c",
+	"src/posix_thread.c",
+	"src/glx_context.c",
+	"src/egl_context.c",
+	"src/osmesa_context.c",
 	"src/linux_joystick.c"
 }
 
