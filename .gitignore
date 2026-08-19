@@ -34,6 +34,7 @@ build.ninja
 rules.ninja
 .ninja_deps
 .ninja_log
+*.ninja
 
 # CMake clutter
 CMakeCache.txt
