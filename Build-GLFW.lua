@@ -97,7 +97,7 @@ project "GLFW"
 		runtime "Debug"
 		symbols "on"
 		sanitize { "Address" }
-		runtimechecks "On"
+		runtimechecks "Default"
 		incrementallink "On"
 
 	filter "configurations:Release"
